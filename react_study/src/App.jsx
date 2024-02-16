@@ -5,6 +5,7 @@ import Signup from "./pages/sign/Signup.jsx"
 import Navigation from "./components/navigation/Navigation.jsx";
 import House from "./pages/view/House.jsx";
 import InSide from "./pages/view/Inside.jsx";
+import Board from "./pages/board/board.jsx";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
         <Route path="/signup" element={<Signup />} />
         <Route path="/outside" element={<House />} />
         <Route path="/inside" element={<InSide />} />
+        <Route path="/board" element={<Board />} />
       </Routes>
     </div>
   )
